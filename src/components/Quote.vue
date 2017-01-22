@@ -1,11 +1,14 @@
 <template>
     <div>
-        <p>A famous quote</p>
+        <p>{{ quote }}</p>
     </div>
 </template>
 
 <script>
-    console.log('from inside quote')
+    console.log('from inside quote');
+	export default {
+		props: ['quote']
+	}
 </script>
 
 <style scoped>

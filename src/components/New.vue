@@ -13,6 +13,15 @@
             return {
                 counter: 0
             };
+        },
+        destroyed() {
+            console.log('New comp destroyed');
+        },
+        deactivated() {
+            console.log('new comp deactivated');
+        },
+        activated() {
+            console.log('new comp activated');
         }
 	}
 </script>

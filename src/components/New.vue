@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h3>The Quote</h3>
+        <h3>The new component</h3>
     </div>
 </template>
 

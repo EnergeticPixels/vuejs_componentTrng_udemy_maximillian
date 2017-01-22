@@ -1,13 +1,12 @@
 <template>
     <div>
-        <p>{{ quote }}</p>
+        <slot></slot>
     </div>
 </template>
 
 <script>
     console.log('from inside quote');
 	export default {
-		props: ['quote']
 	}
 </script>
 
